@@ -1,0 +1,42 @@
+{
+  "name": "@stdlib/utils-do-while-each",
+  "version": "0.0.0",
+  "description": "While a test condition is true, invoke a function for each element in a collection.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/utils-do-while-each.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdutils",
+    "stdutil",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "for",
+    "while",
+    "dowhile",
+    "do while",
+    "do",
+    "each",
+    "foreach",
+    "iterate",
+    "collection",
+    "array-like",
+    "array",
+    "typed-array",
+    "typed array"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
