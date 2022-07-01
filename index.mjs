@@ -1,4 +1,0 @@
-// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import t from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-collection@esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-function@esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/string-format@esm/index.mjs";var n=t,i=e,s=r;var o=function(t,e,r,o){var a,l;if(!n(t))throw new TypeError(s("invalid argument. First argument must be a collection. Value: `%s`.",t));if(!i(e))throw new TypeError(s("invalid argument. Second argument must be a function. Value: `%s`.",e));if(!i(r))throw new TypeError(s("invalid argument. Third argument must be a function. Value: `%s`.",r));if(0===(a=t.length)&&(e.call(o,void 0,void 0,t),0===(a=t.length)))return t;l=0;do{e.call(o,t[l],l,t),l+=1,a=t.length}while(l<a&&r(t[l-1],l-1,t));return t};export{o as default};
-//# sourceMappingURL=index.mjs.map
